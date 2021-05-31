@@ -1,6 +1,7 @@
 {
   "name": "vite-vue3-electron",
   "description": "Example skeleton project with Vue 3, Vite, and Electron",
+  "author": "Andrei Taranchenko",
   "version": "0.0.0",
   "main": "electron-dist/main/app.js",
   "scripts": {
