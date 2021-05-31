@@ -1,0 +1,51 @@
+{
+  "name": "vite-vue3-electron",
+  "description": "Example skeleton project with Vue 3, Vite, and Electron",
+  "version": "0.0.0",
+  "main": "electron-dist/main/app.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "electron:dev": "cross-env NODE_ENV=development electron electron.js",
+    "electron:build": "rimraf dist && vite build --config vite.electron.config.ts && tsc -p tsconfig.electron.json && electron-builder",
+    "lint": "eslint --fix  src/**/*"
+  },
+  "dependencies": {
+    "vue": "^3.0.11",
+    "vue-router": "^4.0.8",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vue/compiler-sfc": "^3.0.11",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "cross-env": "^7.0.3",
+    "electron": "13.0.1",
+    "electron-builder": "^22.10.5",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^7.10.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "4.2.4",
+    "vite": "2.3.4",
+    "vue-eslint-parser": "^7.6.0",
+    "vue-tsc": "^0.0.26"
+  },
+  "build": {
+    "appId": "your.id",
+    "mac": {
+      "category": "your.app.category.type"
+    },
+    "files": [
+      "electron-dist/main/**/*",
+      "electron-dist/render/**/*"
+    ],
+    "directories": {
+      "output": "electron-dist/release"
+    }
+  },
+  "license": "MIT"
+}

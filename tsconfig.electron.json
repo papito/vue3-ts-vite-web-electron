@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+  "target": "esnext",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "outDir": "electron-dist/main"
+},
+  "include": [
+    "src/electron/app.ts",
+    "src/electron/preload.js"
+  ]
+}
+
