@@ -5,11 +5,12 @@
     <main>
       <div>
         <div>
+          <a href="https://www.amazon.com/Release-Design-Deploy-Production-Ready-Software-ebook-dp-B079YWMY2V/dp/B079YWMY2V" target="_blank">
           <img
             src="/public/computer.png"
             height="300"
             alt=""
-          >
+          ></a>
         </div>
         <strong>DON'T SOLVE PROBLEMS YOU DON'T HAVE</strong>
       </div>
@@ -63,8 +64,8 @@ footer {
 #vuePort {
   display: grid;
   grid-template-rows: [header]  2em
-                            [content]  1fr
-                            [footer]  2em;
+                      [content] 1fr
+                      [footer]  2em;
   min-height: 100vh;
 }
 </style>
