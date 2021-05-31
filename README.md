@@ -1,5 +1,5 @@
 
-# Vue 3 project, powered by Vite, to build web and Electron distros
+# Vue 3 Typescript project, powered by Vite, to build web and Electron distros
 
 ### Initial Setup
 
