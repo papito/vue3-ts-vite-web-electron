@@ -1,16 +1,16 @@
-<!--suppress ALL -->
 <template>
   <div id="vuePort">
     <NavBar />
     <main>
       <div>
         <div>
-          <a href="https://www.amazon.com/Release-Design-Deploy-Production-Ready-Software-ebook-dp-B079YWMY2V/dp/B079YWMY2V" target="_blank">
-          <img
-            src="/public/computer.png"
-            height="300"
-            alt=""
-          ></a>
+          <a
+            href="https://www.amazon.com/Release-Design-Deploy-Production-Ready-Software-ebook-dp-B079YWMY2V/dp/B079YWMY2V"
+            target="_blank">
+            <img
+              src="/public/computer.png"
+              height="300"
+              alt=""></a>
         </div>
         <strong>DON'T SOLVE PROBLEMS YOU DON'T HAVE</strong>
       </div>
