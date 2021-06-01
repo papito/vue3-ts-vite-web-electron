@@ -5,11 +5,11 @@
   "version": "0.0.0",
   "main": "electron-dist/main/app.js",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3000",
     "build": "vue-tsc --noEmit && vite build",
     "electron:dev": "cross-env NODE_ENV=development electron electron.js",
     "electron:build": "rimraf dist && vite build --config vite.electron.config.ts && tsc -p tsconfig.electron.json && electron-builder",
-    "lint": "eslint --fix  src/**/*"
+    "lint": "eslint --no-error-on-unmatched-pattern --fix --ext .js --ext .ts --ext .vue -- src"
   },
   "dependencies": {
     "vue": "^3.0.11",
