@@ -9,7 +9,7 @@
 
 	"extends": [
 		"eslint:recommended",
-		"plugin:vue/recommended",
+		"plugin:vue/vue3-recommended",
 		"plugin:@typescript-eslint/recommended",
 		"@vue/typescript/recommended"
 	],
@@ -24,7 +24,10 @@
 		"@typescript-eslint/camelcase": "off",
 		"@typescript-eslint/no-var-requires": "off",
 		"semi": [2, "never"],
-		"object-curly-spacing": ["error", "always"]
+		"object-curly-spacing": ["error", "always"],
+		"vue/html-closing-bracket-newline": ["error", {
+			"multiline": "never"
+		}]
 	}
 }
 
