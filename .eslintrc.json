@@ -27,6 +27,16 @@
 		"object-curly-spacing": ["error", "always"],
 		"vue/html-closing-bracket-newline": ["error", {
 			"multiline": "never"
+		}],
+		"vue/max-attributes-per-line": ["error", {
+			"singleline": {
+				"max": 1,
+				"allowFirstLine": true
+			},
+			"multiline": {
+				"max": 1,
+				"allowFirstLine": true
+			}
 		}]
 	}
 }
