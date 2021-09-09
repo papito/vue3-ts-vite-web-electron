@@ -1,5 +1,5 @@
 
-# Vue3 TypeScript project, powered by Vite, to build web and Electron distros
+# Vue3 TypeScript project, powered by Vite, to build web and Electron applications
 
 ### Initial Setup
 
